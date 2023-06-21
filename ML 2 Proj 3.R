@@ -15,7 +15,7 @@ library(NbClust) #For finding optimal number of clusters
 library(clValid) #For cluster validation
 
 ## Read in Data
-setwd("C:/Users/ajlou/Documents/MSBA")
+setwd("C:/Users/nghiassi/Documents/MSBA")
 travel_data <- readxl::read_xlsx("Travel_Review.xlsx")
 ## Summary
 summary(travel_data)
